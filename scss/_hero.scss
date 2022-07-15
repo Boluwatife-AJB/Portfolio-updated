@@ -85,7 +85,9 @@
         &:hover {
           background-color: var(--yellow-color);
           font-weight: 500;
-          color: var(--green-color);
+          a {
+            color: var(--green-color);
+          }
         }
 
         @media screen and (min-width: 768px) {
@@ -98,7 +100,6 @@
       @media screen and (min-width: 768px) {
         margin: 0;
         width: 30%;
-        
       }
     }
   }
@@ -125,7 +126,6 @@
 
     @media screen and (min-width: 768px) {
       width: 460px;
-     
     }
   }
 

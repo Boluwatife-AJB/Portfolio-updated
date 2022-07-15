@@ -345,6 +345,8 @@ img {
 .home__content-button button:hover {
   background-color: var(--yellow-color);
   font-weight: 500;
+}
+.home__content-button button:hover a {
   color: var(--green-color);
 }
 @media screen and (min-width: 768px) {
