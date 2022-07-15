@@ -178,7 +178,8 @@ img {
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
     transition: 0.5s;
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
   }
 }
 .header .nav__item {
@@ -358,7 +359,8 @@ img {
   align-self: flex-end;
 }
 .home__scroll-link {
-  writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
   transform: rotate(-180deg);
   color: var(--white-color);
 }
@@ -493,7 +495,8 @@ img {
   .portfolio__container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    column-gap: 2rem;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
   }
 }
 .portfolio__img {
@@ -514,7 +517,8 @@ img {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 0.5rem;
   cursor: pointer;
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   transition: 0.5s;
 }
 .portfolio__link-name {
@@ -558,7 +562,8 @@ img {
   font-family: inherit;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 .contact__input {
   width: 100%;
@@ -618,4 +623,4 @@ img {
 }
 .footer__social:hover {
   color: var(--yellow-color);
-}
+}/*# sourceMappingURL=styles.css.map */
