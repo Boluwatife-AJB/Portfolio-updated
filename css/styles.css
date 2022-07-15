@@ -189,6 +189,12 @@ img {
   .header .nav__item {
     margin-left: var(--mb-4);
     margin-bottom: 0;
+    height: 100%;
+    cursor: pointer;
+    height: 37px;
+  }
+  .header .nav__item:hover a {
+    color: var(--yellow-color);
   }
 }
 @media screen and (min-width: 768px) {
@@ -200,9 +206,6 @@ img {
   position: relative;
   color: #2a3b47;
   font-weight: 400;
-}
-.header .nav__link:hover {
-  color: var(--yellow-color);
 }
 @media screen and (min-width: 768px) {
   .header .nav__link {
@@ -320,11 +323,11 @@ img {
   justify-content: space-between;
 }
 .home__content-button .hire {
-  width: 100px;
+  width: 40%;
   margin-left: 0;
 }
-.home__content-button .downoad {
-  width: 170px;
+.home__content-button .download {
+  width: 50%;
 }
 .home__content-button button {
   background-color: var(--white-color);
@@ -346,13 +349,15 @@ img {
 }
 @media screen and (min-width: 768px) {
   .home__content-button button {
-    margin: var(--mb-3) var(--mb-4) 0 0;
-    padding: 5px;
+    margin: var(--mb-3) 0 0 0;
+    padding: 0 6px;
+    max-width: 60%;
   }
 }
 @media screen and (min-width: 768px) {
   .home__content-button {
     margin: 0;
+    width: 30%;
   }
 }
 .home__scroll {
